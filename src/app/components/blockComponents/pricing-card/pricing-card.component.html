@@ -1,0 +1,25 @@
+<div [ngClass]="{'active-card': selectedValue === value}" class="pricing__card">
+    <div class="pricing__card-info">
+        <span [ngClass]="{'active-text': selectedValue === value}"
+            class="pricing__card-title Headline_6_Bold">{{name}}</span>
+        <div class="pricing__card-priceblock">
+            <span [ngClass]="{'active-text': selectedValue === value}" class="pricing__card-price">$99</span>
+            <div class="pricing__card-price__selection">
+                <span [ngClass]="{'pricing__card-price__selection-button-active': selectedValue === value}"
+                    class="pricing__card-price__selection-button Headline_7_SemiBold">Mo</span>
+                <span [ngClass]="{'pricing__card-price__selection-button-active': selectedValue === value}"
+                    class="pricing__card-price__selection-button Headline_7_SemiBold">Yr</span>
+            </div>
+        </div>
+    </div>
+    <span [ngClass]="{'active-button': selectedValue === value}" class="pricing__card-button Headline_7_SemiBold">Choose
+        plan</span>
+    <div class="pricing__card-services">
+        <div *ngFor="let service of services" class="pricing__card-service">
+            <img *ngIf="selectedValue !== value" src="/assets/img/checkmark.svg" alt="">
+            <img *ngIf="selectedValue === value" src="/assets/img/checkmark_white.svg" alt="">
+            <span [ngClass]="{'active-text': selectedValue === value}"
+                class="pricing__card-service-info Paragraph_3_Regular">{{service}}</span>
+        </div>
+    </div>
+</div>

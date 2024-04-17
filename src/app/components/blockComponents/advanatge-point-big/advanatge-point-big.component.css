@@ -1,0 +1,5 @@
+.advantage-point-big {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}

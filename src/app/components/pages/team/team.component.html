@@ -1,0 +1,37 @@
+<div class="team__head">
+    <div class="breadcrumb">
+        <a class="Headline_7_Medium" routerLink='/home' routerLinkActive="active">Home</a>
+        <img src="/assets/img/icon_divider.svg" alt="">
+        <a class="Headline_7_SemiBold" routerLink='/team' routerLinkActive="active">Our team</a>
+    </div>
+    <div class="team__info">
+        <span class="team__title Headline_1_ExtraBold color__white">Our team</span>
+        <span class="team__description Paragraph_3_Regular">Sed ut perspiciatis unde omnis iste natus error
+            volupta
+            accusantium doloremque
+            laudantium, totam remiga aperiam, eaque ipsa. Phasellus tristique eu nisl eu consectetur.
+            Morbi urna massa, imperdiet in mauris et, euismod vestibulum lacus. Integer enim elit, tincidunt aliquam
+            ligula id, lacinia auctor orci. Sed quis lobortis eros. Fusce id commodo libero.</span>
+    </div>
+</div>
+<section class="team__cards">
+    <app-team-card [Name]="'Sargis Grigor'" [Position]="'Data analyst'"
+        [FaceUrl]="'/assets/img/team/001_img_person_1.png'" class="team__card-offset"></app-team-card>
+    <app-team-card [Name]="'Bagrat Leo'" [Position]="'Data engineer'"
+        [FaceUrl]="'/assets/img/team/002_img_person_2.png'"></app-team-card>
+    <app-team-card [Name]="'Gor Sargis'" [Position]="'Data analyst'" [FaceUrl]="'/assets/img/team/003_img_person_3.png'"
+        class="team__card-offset"></app-team-card>
+    <app-team-card [Name]="'Maral Mari'" [Position]="'Data analyst'" [FaceUrl]="'/assets/img/team/00_img_person_4.png'"
+        class="team__card-offset"></app-team-card>
+    <app-team-card [Name]="'Hakob Jirair'" [Position]="'Data engineer'"
+        [FaceUrl]="'/assets/img/team/008_img_person_8.png'"></app-team-card>
+    <app-team-card [Name]="'Eva Vosgi'" [Position]="'Data scientist'"
+        [FaceUrl]="'/assets/img/team/005_img_person_5.png'" class="team__card-offset"></app-team-card>
+    <app-team-card [Name]="'Kohar Marine'" [Position]="'Data scientist '"
+        [FaceUrl]="'/assets/img/team/007_img_person_7.png'" class="team__card-offset"></app-team-card>
+    <app-team-card [Name]="'Ararat Ohannes'" [Position]="'Data analyst'"
+        [FaceUrl]="'/assets/img/team/009_img_person_9.png'"></app-team-card>
+    <app-team-card [Name]="'Eduard Vosgi'" [Position]="'Data scientist '"
+        [FaceUrl]="'/assets/img/team/006_img_person_6.png'" class="team__card-offset"></app-team-card>
+</section>
+<app-subscribe-block></app-subscribe-block>

@@ -1,0 +1,47 @@
+.testimonials__card {
+    display: flex;
+    width: 280px;
+    padding: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    background: #FFF;
+    /* Shadow_card_3 */
+    box-shadow: 0px 4px 12px 0px rgba(12, 68, 204, 0.10);
+    margin: 12px;
+}
+
+.testimonials__card-person {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.testimonials__card-picture {
+    height: 80px;
+    width: 80px;
+    clip-path: circle();
+}
+
+.testimonials__card-person__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.testimonials__card-person__name {
+    color: var(--Black, #292D33);
+}
+
+.testimonials__card-person__position {
+    color: var(--Grey, #9497A1);
+}
+
+.testimonials__card-description {
+    color: var(--Grey, #9497A1);
+}
+
+.testimonials__card-wide {
+    width: 470px;
+}

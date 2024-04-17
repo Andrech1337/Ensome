@@ -1,0 +1,31 @@
+.testimonials {
+    margin: 120px auto;
+    height: 520px;
+    width: 1110px;
+    position: relative;
+}
+
+.testimonials__title {
+    position: absolute;
+    top: 17px;
+    left: 0;
+    color: var(--Black, #292D33);
+}
+
+.arrow__buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.testimonials__cards {
+    position: relative;
+    top: 125px;
+}
+
+button {
+    all: unset;
+}

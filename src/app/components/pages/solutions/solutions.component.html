@@ -1,0 +1,44 @@
+<div class="breadcrumb">
+    <a class="Headline_7_Medium" routerLink='/home' routerLinkActive="active">Home</a>
+    <img src="/assets/img/icon_divider.svg" alt="">
+    <a class="Headline_7_SemiBold" routerLink='/solutions' routerLinkActive="active">Solutions</a>
+</div>
+<app-title-block [PageName]="'Solutions'" [Title]="'Data analytics solutions'"
+    [Description]="'Getting ready for your success, we provide truly \n outstanding IT solutions.'"></app-title-block>
+<div class="solutions__cards">
+    <app-services-card [Title]="'Data integration'"
+        [Description]="'Extract, transform, load (ETL) or extract, load, transform (ELT); data governance (security, availability, quality) implementation.'"
+        [ImgUrl]="'/assets/img/solutions/icon_book_database.svg'"></app-services-card>
+    <app-services-card [Title]="'Data integration'"
+        [Description]="'Data preparation and management; machine learning (ML); designing and implanting artificial intelligence (AI) solutions.'"
+        [ImgUrl]="'/assets/img/solutions/icon_calendar_data.svg'"></app-services-card>
+    <app-services-card [Title]="'Big data'"
+        [Description]="'Big data infrastructure setup and support.; big data quality and security management; big data capture, analysis and reporting.'"
+        [ImgUrl]="'/assets/img/solutions/icon_clipboard_data.svg'"></app-services-card>
+    <app-services-card [Title]="'Data warehousing'"
+        [Description]="'The process of constructing and using a data warehouse. Data warehouse and data marts design and implementation.'"
+        [ImgUrl]="'/assets/img/solutions/icon_database.svg'"></app-services-card>
+    <app-services-card [Title]="'Self-service BI'"
+        [Description]="'Business intelligence; data analytics infrastructure design and implementation; scheduled analytics querying and reporting.'"
+        [ImgUrl]="'/assets/img/solutions/icon_data_whisker.svg'"></app-services-card>
+    <app-services-card [Title]="'Data visualization'"
+        [Description]="'Interactive dashboarding; custom and pre-built visuals; multiple visualization techniques (symbol maps, line charts, pie charts...)'"
+        [ImgUrl]="'/assets/img/solutions/icon_data_pie.svg'"></app-services-card>
+</div>
+<section class="solutions__advantages">
+    <img class="solutions__advantages-img" src="/assets/img/solutions/img_0011.png" alt="">
+    <div class="solutions__advantages-text">
+        <span class="solutions__advantages-title Headline_2_ExtraBold">Why choose us?</span>
+        <div class="solutions__advantages-points">
+            <app-advanatge-point-big [Title]="'Machine learning'"
+                [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.'"></app-advanatge-point-big>
+            <app-advanatge-point-big [Title]="'Embed analytics'"
+                [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.'"></app-advanatge-point-big>
+            <app-advanatge-point-big [Title]="'Access control'"
+                [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.'"></app-advanatge-point-big>
+        </div>
+    </div>
+</section>
+<app-review-block [Cards]="cards" [Type]="'text'" [BlockName]="'Testimonials'"></app-review-block>
+<app-help-block></app-help-block>
+<app-subscribe-block></app-subscribe-block>

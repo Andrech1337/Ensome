@@ -1,0 +1,10 @@
+.pricing__card-service {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    align-self: stretch;
+}
+
+.pricing__card-service-info {
+    color: var(--Black, #292D33);
+}

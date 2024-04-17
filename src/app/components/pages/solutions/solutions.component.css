@@ -1,0 +1,32 @@
+.solutions__cards {
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    margin-bottom: 120px;
+}
+
+.solutions__advantages {
+    background: rgb(241, 246, 250);
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.solutions__advantages-img {
+    margin-right: 45px;
+}
+
+.solutions__advantages-text {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.solutions__advantages-points {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

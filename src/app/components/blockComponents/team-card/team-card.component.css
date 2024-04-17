@@ -1,0 +1,16 @@
+.team__card {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 6px;
+    /* background: ; */
+}
+
+.team__card-text {
+    position: absolute;
+    top: 83.6%;
+    bottom: 4.8%;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+}

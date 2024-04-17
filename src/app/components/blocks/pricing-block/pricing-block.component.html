@@ -1,0 +1,12 @@
+<section class="pricing">
+    <span class="pricing__title Headline_2_ExtraBold">Our pricing</span>
+    <div>
+        <mat-button-toggle-group class="pricing__cards" [hideSingleSelectionIndicator]="true"
+            [(ngModel)]="selectedValue" name="fontStyle" aria-label="Font Style">
+            <mat-button-toggle *ngFor="let card of cards" [value]="card.id">
+                <app-pricing-card [name]="card.name" [value]="card.id" [services]="card.services"
+                    [selectedValue]=selectedValue></app-pricing-card>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+    </div>
+</section>

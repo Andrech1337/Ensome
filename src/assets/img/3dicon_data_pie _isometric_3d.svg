@@ -1,0 +1,97 @@
+<svg width="85.000000" height="71.000000" viewBox="0 0 85 71" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_220_14857_dd" x="-0.418457" y="15.252441" width="85.311035" height="54.812012" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="5.24444"/>
+			<feGaussianBlur stdDeviation="2.18519"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.098039 0 0 0 0 0.21176 0 0 0 0 0.48235 0 0 0 0.5 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="1.74815"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+		</filter>
+		<filter id="filter_220_14859_dd" x="5.591553" y="20.930664" width="63.980957" height="30.929688" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="0.874074" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_220_14862_dd" x="7.790039" y="21.222168" width="59.161865" height="25.685547" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="0.437037"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+		</filter>
+		<filter id="filter_220_14865_dd" x="7.780273" y="5.779785" width="59.163086" height="38.621582" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="1.31111"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="0.655556"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+		</filter>
+		<linearGradient id="paint_linear_220_14856_0" x1="74.898392" y1="24.537384" x2="8.215921" y2="46.009453" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00298D"/>
+			<stop offset="0.189268" stop-color="#2349A7"/>
+			<stop offset="0.646435" stop-color="#3155AD"/>
+			<stop offset="1.000000" stop-color="#032C91"/>
+		</linearGradient>
+		<radialGradient id="paint_radial_220_14857_0" cx="0.000000" cy="0.000000" r="1.000000" gradientUnits="userSpaceOnUse" gradientTransform="translate(42.237 37.4138) rotate(90) scale(28.6214 49.5543)">
+			<stop offset="0.052083" stop-color="#062E8D"/>
+			<stop offset="1.000000" stop-color="#2968FE"/>
+		</radialGradient>
+		<linearGradient id="paint_linear_220_14857_1" x1="30.721987" y1="15.364893" x2="50.309967" y2="57.058250" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.431373"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_220_14863_0" x1="59.775314" y1="55.036758" x2="14.071915" y2="21.643936" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#E9F7FF"/>
+			<stop offset="0.579246" stop-color="#D7F0FF" stop-opacity="0.568627"/>
+			<stop offset="0.956471" stop-color="#BDE7FF" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_220_14864_0" x1="66.981827" y1="28.014679" x2="40.756920" y2="19.258942" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#E9F7FF"/>
+			<stop offset="0.579246" stop-color="#D7F0FF" stop-opacity="0.568627"/>
+			<stop offset="0.956471" stop-color="#BDE7FF" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_220_14865_0" x1="7.780258" y1="2.444534" x2="66.943413" y2="44.401100" gradientUnits="userSpaceOnUse">
+			<stop offset="0.052955" stop-color="#0D7BE0"/>
+			<stop offset="0.461273" stop-color="#79CFFF"/>
+			<stop offset="1.000000" stop-color="#79CFFF"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_220_14865_1" x1="65.395462" y1="50.042248" x2="12.499287" y2="8.443230" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#E9F7FF"/>
+			<stop offset="0.923987" stop-color="#BDE7FF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="icon_data_pie _isometric_3d" width="84.000000" height="70.000000" transform="translate(1.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="lateral" d="M78.33 37.42C78.33 42.75 74.79 48.08 67.76 52.15C53.66 60.29 30.8 60.3 16.7 52.15C9.18 47.81 5.71 42.02 6.22 36.33C6.18 36.53 6.14 36.74 6.12 36.95C5.44 44.38 7.73 49.48 16.7 54.66C30.8 62.8 53.66 62.8 67.76 54.66C75.83 50 78.49 44.08 78.33 37.42Z" fill="url(#paint_linear_220_14856_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<g filter="url(#filter_220_14857_dd)">
+		<path id="circle" d="M42.23 58.26C62.17 58.26 78.33 48.92 78.33 37.41C78.33 25.89 62.17 16.56 42.23 16.56C22.29 16.56 6.13 25.89 6.13 37.41C6.13 48.92 22.29 58.26 42.23 58.26Z" fill="url(#paint_radial_220_14857_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<path id="circle" d="M78.33 37.41C78.33 48.92 62.17 58.26 42.23 58.26C22.29 58.26 6.13 48.92 6.13 37.41C6.13 25.89 22.29 16.56 42.23 16.56C62.17 16.56 78.33 25.89 78.33 37.41ZM49.49 57.71Q45.92 58.13 42.23 58.13Q38.55 58.13 34.97 57.71Q31.49 57.29 28.21 56.49Q25 55.71 22.1 54.58Q19.22 53.46 16.77 52.04Q14.32 50.62 12.38 48.97Q10.43 47.3 9.07 45.45Q7.7 43.57 6.99 41.57Q6.44 40.01 6.31 38.42Q6.26 37.92 6.26 37.41Q6.26 36.9 6.31 36.4Q6.44 34.81 6.99 33.25Q7.7 31.25 9.07 29.37Q10.43 27.52 12.38 25.85Q14.32 24.19 16.77 22.78Q19.22 21.36 22.1 20.24Q25 19.11 28.21 18.32Q31.49 17.52 34.97 17.11Q38.55 16.69 42.23 16.69Q45.92 16.69 49.49 17.11Q52.98 17.52 56.25 18.32Q59.47 19.11 62.37 20.24Q65.24 21.36 67.69 22.78Q70.14 24.19 72.08 25.85Q74.03 27.52 75.39 29.37Q76.77 31.25 77.47 33.25Q78.03 34.81 78.16 36.4Q78.2 36.9 78.2 37.41Q78.2 37.92 78.16 38.42Q78.03 40.01 77.47 41.57Q76.77 43.57 75.39 45.45Q74.03 47.3 72.08 48.97Q70.14 50.62 67.69 52.04Q65.24 53.46 62.37 54.58Q59.47 55.71 56.25 56.49Q52.98 57.29 49.49 57.71Z" fill="url(#paint_linear_220_14857_1)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<g filter="url(#filter_220_14859_dd)">
+		<path id="2" d="M59.73 33.27C59.74 33.36 59.73 33.46 59.72 33.55C58.77 37.4 55.41 40.88 50.31 43.32C44.63 45.86 38.44 47.01 32.25 46.67C26.25 46.54 20.38 44.88 15.17 41.82C10.74 39.01 8.26 35.31 8.21 31.46L8.21 33.87C8.22 37.76 10.71 41.49 15.17 44.33C20.38 47.39 26.25 49.05 32.25 49.17C38.44 49.51 44.63 48.37 50.32 45.82C55.42 43.39 58.77 39.9 59.72 36.05C59.81 35.69 59.75 33.28 59.75 33.28C59.75 33.28 59.73 33.28 59.73 33.27Z" fill="#083090" fill-opacity="0.400000" fill-rule="nonzero"/>
+		<path id="1" d="M66.94 23.56L66.94 23.79C66.9 24.89 65.32 25.69 63.47 25.69L41.05 25.69C40.14 25.71 39.24 25.49 38.44 25.05C38.15 24.91 37.9 24.71 37.71 24.44C37.52 24.18 37.4 23.87 37.36 23.55L37.36 26.01C37.39 26.34 37.51 26.66 37.7 26.94C37.89 27.21 38.15 27.43 38.44 27.56C39.25 28 40.15 28.23 41.06 28.21L63.48 28.21C65.32 28.21 66.91 27.4 66.94 26.31L66.94 23.56Z" fill="#083090" fill-opacity="0.400000" fill-rule="nonzero"/>
+	</g>
+	<g filter="url(#filter_220_14862_dd)">
+		<path id="2" d="M59.68 30.94C59.69 31.03 59.68 31.13 59.67 31.22C58.71 35.07 55.33 38.55 50.2 40.99C44.47 43.53 38.24 44.68 32 44.34C25.96 44.21 20.04 42.55 14.79 39.49C10.34 36.68 7.84 32.98 7.79 29.13L7.79 31.54C7.8 35.43 10.31 39.16 14.8 42C20.05 45.06 25.96 46.72 32 46.84C38.24 47.18 44.47 46.04 50.2 43.49C55.33 41.06 58.72 37.57 59.67 33.72C59.76 33.36 59.7 30.95 59.7 30.95C59.7 30.95 59.68 30.95 59.68 30.94Z" fill="url(#paint_linear_220_14863_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="1" d="M66.94 21.23L66.94 21.46C66.9 22.56 65.31 23.36 63.45 23.36L40.86 23.36C39.95 23.38 39.04 23.16 38.23 22.72C37.94 22.58 37.69 22.37 37.5 22.11C37.31 21.85 37.19 21.54 37.15 21.22L37.15 23.68C37.18 24.01 37.3 24.33 37.49 24.61C37.68 24.88 37.94 25.1 38.24 25.23C39.05 25.67 39.96 25.89 40.87 25.88L63.46 25.88C65.31 25.88 66.91 25.07 66.95 23.98L66.94 21.23Z" fill="url(#paint_linear_220_14864_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g filter="url(#filter_220_14865_dd)">
+		<path id="top" d="M30.13 13.79C32.17 13.62 33.85 14.62 33.85 15.84L33.85 27.36C33.85 27.8 34.02 28.22 34.32 28.54C34.63 28.85 35.04 29.02 35.47 29.03L56.2 29.03C58.26 29.03 59.95 30.01 59.66 31.22C58.71 35.06 55.33 38.55 50.19 40.99C44.47 43.53 38.24 44.68 32 44.34C25.96 44.21 20.04 42.55 14.79 39.49C10.3 36.65 7.79 32.91 7.78 29.03C7.78 25.32 10.04 21.75 14.15 18.95C18.98 15.91 24.48 14.14 30.14 13.79L30.13 13.79ZM63.45 23.36C65.3 23.36 66.9 22.56 66.94 21.46L66.94 21.17C66.9 19.01 66.19 16.92 64.91 15.21C63.35 13.13 61.38 11.42 59.13 10.18C56.42 8.66 53.51 7.54 50.49 6.86C47.17 6.1 43.76 5.73 40.35 5.78C38.5 5.8 37.14 6.75 37.14 7.84L37.14 21.16C37.17 21.5 37.29 21.82 37.48 22.09C37.67 22.36 37.93 22.58 38.23 22.72C39.04 23.16 39.94 23.38 40.86 23.36L63.45 23.36Z" fill="url(#paint_linear_220_14865_0)" fill-opacity="0.350000" fill-rule="nonzero"/>
+	</g>
+	<path id="top" d="M38.23 22.72C37.93 22.58 37.67 22.36 37.48 22.09C37.29 21.82 37.17 21.5 37.14 21.16L37.14 7.84C37.14 6.75 38.5 5.8 40.35 5.78C43.76 5.73 47.17 6.1 50.49 6.86C53.51 7.54 56.42 8.66 59.13 10.18C61.38 11.42 63.35 13.13 64.91 15.21C66.19 16.92 66.9 19.01 66.94 21.17L66.94 21.46C66.9 22.56 65.3 23.36 63.45 23.36L40.86 23.36C39.94 23.38 39.04 23.16 38.23 22.72ZM66.81 21.46Q66.81 21.52 66.8 21.57Q66.76 21.87 66.54 22.14Q66.28 22.46 65.81 22.71Q65.35 22.96 64.74 23.09Q64.12 23.23 63.45 23.23L40.86 23.23Q40.54 23.24 40.22 23.2Q39.87 23.17 39.54 23.08Q39.25 23.01 38.97 22.91Q38.62 22.78 38.29 22.6L38.29 22.6L38.28 22.6Q38.09 22.51 37.92 22.38Q37.73 22.22 37.58 22.01Q37.46 21.83 37.38 21.63Q37.29 21.4 37.27 21.16L37.27 7.84Q37.27 7.77 37.27 7.71Q37.31 7.41 37.49 7.13Q37.71 6.79 38.12 6.52Q38.55 6.24 39.1 6.08Q39.69 5.92 40.36 5.91Q42.8 5.88 45.22 6.12Q47.86 6.39 50.47 6.99Q52.5 7.45 54.43 8.16Q56.82 9.03 59.06 10.29Q59.74 10.67 60.38 11.09Q61.33 11.73 62.19 12.48Q62.77 12.98 63.29 13.52Q64.1 14.35 64.81 15.29Q65.23 15.85 65.56 16.46Q65.98 17.23 66.27 18.07Q66.52 18.81 66.65 19.57Q66.79 20.36 66.81 21.17L66.81 21.46ZM32 44.34C38.24 44.68 44.47 43.53 50.19 40.99C55.33 38.55 58.71 35.06 59.66 31.22C59.95 30.01 58.26 29.03 56.2 29.03L35.47 29.03C35.04 29.02 34.63 28.85 34.32 28.54C34.02 28.22 33.85 27.8 33.85 27.36L33.85 15.84C33.85 14.63 32.18 13.63 30.15 13.79L30.14 13.79C30.14 13.79 30.14 13.79 30.13 13.79L30.14 13.79C30.14 13.79 30.14 13.79 30.13 13.79L30.13 13.79C24.47 14.14 18.98 15.91 14.15 18.95C10.04 21.75 7.78 25.32 7.78 29.03C7.79 32.91 10.3 36.65 14.79 39.49C20.04 42.55 25.96 44.21 32 44.34ZM14.86 39.38Q13.19 38.32 11.89 37.11Q10.6 35.9 9.71 34.58Q8.83 33.25 8.37 31.86Q7.99 30.68 7.92 29.49Q7.91 29.26 7.91 29.02Q7.91 28.79 7.92 28.56Q7.98 27.43 8.32 26.32Q8.73 24.99 9.53 23.72Q10.34 22.45 11.51 21.28Q12.7 20.1 14.22 19.06Q16.27 17.77 18.45 16.8Q20.12 16.05 21.87 15.49Q24.02 14.79 26.23 14.4Q28.17 14.04 30.15 13.92L30.15 13.92Q30.87 13.86 31.55 14Q32.19 14.13 32.69 14.41Q33.18 14.69 33.45 15.06Q33.67 15.36 33.71 15.69Q33.72 15.76 33.72 15.84L33.72 27.36Q33.72 27.54 33.75 27.72Q33.79 27.89 33.85 28.04Q33.92 28.23 34.03 28.38Q34.12 28.51 34.23 28.63Q34.36 28.77 34.52 28.87Q34.65 28.96 34.8 29.02Q34.97 29.09 35.14 29.12Q35.31 29.16 35.47 29.16L56.2 29.16Q56.94 29.16 57.62 29.33Q58.27 29.49 58.74 29.78Q59.21 30.07 59.42 30.43Q59.55 30.65 59.56 30.87Q59.57 31.03 59.54 31.19Q59.19 32.6 58.39 33.96Q57.6 35.3 56.4 36.54Q55.2 37.78 53.63 38.87Q52.05 39.96 50.14 40.87Q47.78 41.91 45.33 42.64Q43.33 43.23 41.26 43.61Q38.92 44.04 36.57 44.19Q34.3 44.33 32.01 44.21L32 44.21L32 44.21Q29.84 44.16 27.73 43.86Q25.41 43.53 23.13 42.89Q21.21 42.35 19.38 41.6Q17.05 40.65 14.86 39.38Z" fill="url(#paint_linear_220_14865_1)" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

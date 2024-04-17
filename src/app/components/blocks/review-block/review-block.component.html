@@ -1,0 +1,23 @@
+<section class="testimonials">
+    <span class="testimonials__title Headline_2_ExtraBold">{{BlockName}}</span>
+    <div class="arrow__buttons">
+        <button #Prev style="transform: scale(-1, 1);" type="button" (click)="clickToPrev()">
+            <img class="arrow__button" src="{{arrowPrevUrl}}" alt="">
+        </button>
+        <button #Next type="button" (click)="clickToNext()">
+            <img class="arrow__button" src="{{arrowNextUrl}}" alt="">
+        </button>
+    </div>
+    <div class="testimonials__cards">
+        <swiper-container #swiperContainer [slidesPerView]="Slides">
+            <swiper-slide *ngFor="let card of Cards">
+                <app-review-card *ngIf="Type === 'text'" [Name]="card.name" [Position]="card.position"
+                    [FaceUrl]="card.faceUrl" [Description]="card.description" [wide]="wide">
+                </app-review-card>
+                <app-blog-card *ngIf="Type === 'blog'" [title]="card.title" [description]="card.description"
+                    [date]="card.date" [imgUrl]="card.imgUrl">
+                </app-blog-card>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+</section>

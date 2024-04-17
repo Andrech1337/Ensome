@@ -1,0 +1,17 @@
+.pricing {
+    margin: 120px auto;
+    width: 1140px;
+    height: 631px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pricing__title {
+    color: var(--Black, #292D33);
+}
+
+.pricing__cards {
+    display: inline-flex;
+    align-items: flex-start;
+}

@@ -1,0 +1,26 @@
+<header>
+    <div class="content">
+        <a routerLink='/home' routerLinkActive="active" class="header__logo"></a>
+        <nav class="menu">
+            <a routerLink='/home' routerLinkActive="active" class="menu__link">Home</a>
+            <a routerLink='/solutions' routerLinkActive="active" class="menu__link">Solutions</a>
+            <button class="menu__link" style="color: var(--Grey, #9497A1);" mat-button
+                [matMenuTriggerFor]="menu">Pages</button>
+            <a href="" class="menu__link">Elements</a>
+            <a href="" class="menu__link">Blog</a>
+            <a routerLink="/contact" routerLinkActive="active" class="menu__link">Contacts</a>
+        </nav>
+        <a href="" class="demo">
+            <img src="/assets/img/icon_play_circle.svg" alt="play button">
+            Watch the demo
+        </a>
+    </div>
+</header>
+<mat-menu #menu="matMenu">
+    <button class="menu__link" mat-menu-item routerLink='/services' routerLinkActive="active">
+        Services
+    </button>
+    <button class="menu__link" mat-menu-item routerLink='/team' routerLinkActive="active">
+        Team
+    </button>
+</mat-menu>

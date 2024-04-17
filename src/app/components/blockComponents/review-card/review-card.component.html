@@ -1,0 +1,11 @@
+<div [ngClass]="{'testimonials__card-wide': wide === true}" class="testimonials__card">
+    <div class="testimonials__card-person">
+        <img class="testimonials__card-picture" [src]="FaceUrl" alt="">
+        <div class="testimonials__card-person__info">
+            <span class="testimonials__card-person__name Headline_6_Bold">{{Name}}</span>
+            <span class="testimonials__card-person__position Headline_7_Medium">{{Position}}</span>
+        </div>
+    </div>
+    <span class="testimonials__card-description Paragraph_2_Regular">{{Description}}
+    </span>
+</div>

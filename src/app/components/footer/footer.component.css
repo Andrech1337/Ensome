@@ -1,0 +1,102 @@
+footer {
+    position: relative;
+    height: 530px;
+    background: var(--Secondary, #002B4E);
+}
+
+.footer__companyinfo {
+    position: absolute;
+    left: 405px;
+    top: 50px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer__logo {
+    display: block;
+    width: 141px;
+    height: 46px;
+    background: url(/assets/img/footer_logo.png) no-repeat;
+    background-size: cover;
+}
+
+.footer__info {
+    color: var(--Grey, #9497A1);
+    max-width: 285px;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer__link-columns {
+    position: absolute;
+    left: 880px;
+    top: 61px;
+    width: 613px;
+    height: 331px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links-column {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.footer__links-title {
+    color: #FFF;
+}
+
+.footer__links {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer__link {
+    color: var(--Grey, #9497A1);
+    max-width: 233px;
+}
+
+.footer__copyright {
+    position: absolute;
+    left: 405px;
+    top: 442px;
+    width: 1110px;
+    height: 58px;
+}
+
+.footer_separate-line {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #607D94;
+}
+
+.rights-reserved {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: var(--helper-blue-2, #607D94);
+}
+
+.privacy-policy {
+    position: absolute;
+    left: 855px;
+    bottom: 0;
+    color: var(--helper-blue-2, #607D94);
+}
+
+.terms-of-use {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: var(--helper-blue-2, #607D94);
+}

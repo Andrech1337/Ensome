@@ -1,0 +1,26 @@
+.contact {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Background, #F1F6FA);
+}
+
+.contact__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact__title {
+    color: var(--Black, #292D33);
+    text-align: center;
+}
+
+.contact__description {
+    display: block;
+    width: 540px;
+    color: var(--Grey, #9497A1);
+    text-align: center;
+}

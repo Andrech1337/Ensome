@@ -1,0 +1,79 @@
+.title {
+    display: block;
+    color: var(--Black, #292D33);
+    font-family: Manrope;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    /* 88px */
+    letter-spacing: -1.2px;
+    max-width: 540px;
+}
+
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 77px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-top: 17px;
+    max-width: 540px;
+    height: 352px;
+}
+
+.input__form {
+    padding: 15px 91px 15px 25px;
+    border-radius: 6px;
+    height: 54px;
+    width: 100%;
+    border: 1px solid var(--Grey, #9497A1);
+}
+
+.input__form::placeholder {
+    color: var(--Black, #292D33);
+}
+
+.input__form-small {
+    max-width: 255px;
+}
+
+.input__form-big {
+    resize: none;
+    height: 140px;
+}
+
+.contacts {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 47px;
+}
+
+.contacts__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.contacts__card-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contacts__card-info {
+    color: var(--Grey, #9497A1);
+}
+
+.map {
+    margin-top: 120px;
+}

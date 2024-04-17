@@ -1,0 +1,30 @@
+<div class="breadcrumb">
+    <a class="Headline_7_Medium" routerLink='/home' routerLinkActive="active">Home</a>
+    <img src="/assets/img/icon_divider.svg" alt="">
+    <a class="Headline_7_SemiBold" routerLink='/services' routerLinkActive="active">Services</a>
+</div>
+<app-title-block [PageName]="'Services'" [Title]="'Data Analytics Services'"
+    [Description]="'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaeab illo inventore.'"></app-title-block>
+<section class="services__cards">
+    <app-services-card [Title]="'Machine learning'"
+        [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.'"
+        [ImgUrl]="'/assets/img/3dicon_brain_isometric_3d.svg'"></app-services-card>
+    <app-services-card [Title]="'Embed analytics'"
+        [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.'"
+        [ImgUrl]="'/assets/img/3dicon_trending_lines_isometric_3d.svg'"></app-services-card>
+    <app-services-card [Title]="'Access control'"
+        [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.'"
+        [ImgUrl]="'/assets/img/3dicon_key_isometric_3d.svg'"></app-services-card>
+    <app-services-card [Title]="'Data analytics'"
+        [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.'"
+        [ImgUrl]="'/assets/img/3dicon_data_area_isometric_3d.svg'"></app-services-card>
+    <app-services-card [Title]="'Big data consulting'"
+        [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.'"
+        [ImgUrl]="'/assets/img/3dicon_data_pie _isometric_3d.svg'"></app-services-card>
+    <app-services-card [Title]="'Artificial intelligence'"
+        [Description]="'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure.'"
+        [ImgUrl]="'/assets/img/3dicon_bot _isometric_3d.svg'"></app-services-card>
+</section>
+<app-services-stats></app-services-stats>
+<app-help-block></app-help-block>
+<app-subscribe-block></app-subscribe-block>

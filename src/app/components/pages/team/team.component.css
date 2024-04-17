@@ -1,0 +1,32 @@
+.team__head {
+    height: 450px;
+    background: var(--Secondary);
+}
+
+.team__info {
+    margin: 0 auto;
+    margin-top: 130px;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__description {
+    padding-top: 10px;
+    max-width: 540px;
+    color: var(--Background);
+}
+
+.team__cards {
+    width: 1110px;
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+
+.team__card-offset {
+    position: relative;
+    top: 120px;
+}

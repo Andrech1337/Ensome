@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    max-width: 730px;
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 125px;
+}
+
+.title__description {
+    text-align: center;
+    white-space: pre-line;
+}
