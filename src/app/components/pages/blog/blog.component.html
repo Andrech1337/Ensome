@@ -1,0 +1,19 @@
+<div class="blog__head">
+    <div class="breadcrumb">
+        <a class="Headline_7_Medium color__grey" routerLink='/home' routerLinkActive="active">Home</a>
+        <img src="/assets/img/icon_divider.svg" alt="">
+        <a class="Headline_7_SemiBold color__white" routerLink='/blog' routerLinkActive="active">Blog</a>
+    </div>
+    <div class="blog__info">
+        <span class="blog__title Headline_1_ExtraBold color__white">Blog</span>
+        <span class="blog__description Paragraph_3_Regular">Sed ut perspiciatis unde omnis iste natus error volupta
+            accusantium doloremque laudantium, totam remiga aperiam, eaque ipsa.</span>
+    </div>
+</div>
+<section class="blog__cards-section">
+    <div class="blog__cards">
+        <app-blog-card *ngFor="let card of blogCards" [title]="card.title" [description]="card.description"
+            [date]="card.date" [imgUrl]="card.imgUrl"></app-blog-card>
+    </div>
+</section>
+<app-subscribe-block></app-subscribe-block>

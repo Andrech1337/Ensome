@@ -5,6 +5,7 @@ import { SubscribeBlockComponent } from '@blocks/subscribe-block/subscribe-block
 import { ReviewBlockComponent } from '@blocks/review-block/review-block.component';
 import { PricingBlockComponent } from '@blocks/pricing-block/pricing-block.component'
 import { testimonialCards } from 'assets/data/testimonials';
+import { blogCards } from 'assets/data/blogCards';
 
 @Component({
   selector: 'app-home',
@@ -21,14 +22,9 @@ import { testimonialCards } from 'assets/data/testimonials';
 })
 export class HomeComponent {
   cards: any = [];
+  blogCards: any = [];
   ngOnInit() {
     this.cards = testimonialCards;
+    this.blogCards = blogCards;
   }
-  blogCards: any = [
-    { title: "ISO 13485 compliance of medical devices", description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...", date: "22 June 2022", imgUrl: "/assets/img/blog_img1.png" },
-    { title: "Business analysis helps you  in finance", description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...", date: "22 June 2022", imgUrl: "/assets/img/blog_img2.png" },
-    { title: "5 web portal examples your business can learn from", description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...", date: "22 June 2022", imgUrl: "/assets/img/blog_img3.png" },
-    { title: "Business analysis helps you  in finance", description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...", date: "22 June 2022", imgUrl: "/assets/img/blog_img2.png" },
-    { title: "Business analysis helps you  in finance", description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...", date: "22 June 2022", imgUrl: "/assets/img/blog_img2.png" },
-  ]
 }

@@ -1,0 +1,32 @@
+.blog__head {
+    height: 450px;
+    background: var(--Secondary);
+}
+
+.blog__info {
+    margin: 0 auto;
+    margin-top: 130px;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__description {
+    padding-top: 10px;
+    max-width: 350px;
+    color: var(--Background);
+}
+
+.blog__cards-section {
+    height: 1900px;
+}
+
+.blog__cards {
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 60px;
+}
