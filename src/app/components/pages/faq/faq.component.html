@@ -1,0 +1,26 @@
+<div class="breadcrumb">
+    <a class="Headline_7_Medium" routerLink='/home' routerLinkActive="active">Home</a>
+    <img src="/assets/img/icon_divider.svg" alt="">
+    <a class="Headline_7_SemiBold" routerLink='/faq' routerLinkActive="active">FAQs</a>
+</div>
+<app-title-block [PageName]="'FAQs'" [Title]="'Frequently asked questions'"
+    [Description]="'Sed ut perspiciatis unde omnis iste natus error sit \n voluptatem accusantium doloremque laudantium totam.'">
+</app-title-block>
+<section class="faq__main">
+    <div class="faq__wrapper">
+        <mat-accordion class="faq__accordion">
+            <mat-expansion-panel *ngFor="let question of questions" (opened)="question.opened = true"
+                (closed)="question.opened = false">
+                <mat-expansion-panel-header [ngStyle]="{'padding-bottom': question.opened ? '0' : '35px'}"
+                    class="faq__name">
+                    <mat-panel-title [ngClass]="question.opened ? 'color__primary' : ''"
+                        class="Headline_4_Bold faq__name2">
+                        {{question.title}}
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p class="Paragraph_1_Regular color__grey faq__description">{{question.description}}</p>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</section>
+<app-help-block></app-help-block>

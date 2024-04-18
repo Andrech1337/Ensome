@@ -1,0 +1,31 @@
+.faq__main {
+    height: 1150px;
+}
+
+.faq__wrapper {
+    width: 1110px;
+    height: 922px;
+    margin: 0 auto;
+}
+
+.faq__accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq__name {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.faq__name2 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.faq__description {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}

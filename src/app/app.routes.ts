@@ -6,7 +6,7 @@ import { ServicesComponent } from '@pages/services/services.component';
 import { TeamComponent } from '@pages/team/team.component';
 import { SolutionsComponent } from '@pages/solutions/solutions.component';
 import { BlogComponent } from './components/pages/blog/blog.component';
-
+import { FaqComponent } from './components/pages/faq/faq.component';
 
 export const routes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -15,6 +15,7 @@ export const routes: Routes = [
     { path: 'services', component: ServicesComponent },
     { path: 'team', component: TeamComponent },
     { path: 'solutions', component: SolutionsComponent },
-    { path: 'blog', component: BlogComponent }
+    { path: 'blog', component: BlogComponent },
+    { path: 'faq', component: FaqComponent }
 ];
 

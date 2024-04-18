@@ -358,16 +358,16 @@ img {
 }
 
 .color__primary {
-    color: var(--Primary, #185CFF);
+    color: var(--Primary, #185CFF) !important;
 }
 
 .color__grey {
-    color: var(--Grey, #9497A1);
+    color: var(--Grey, #9497A1) !important;
 }
 
 
 .color__white {
-    color: white;
+    color: white !important;
 }
 
 /* TYPOGRAPHY END */
