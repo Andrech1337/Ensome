@@ -2,10 +2,10 @@
     <span class="pricing__title Headline_2_ExtraBold">Our pricing</span>
     <div>
         <mat-button-toggle-group class="pricing__cards" [hideSingleSelectionIndicator]="true"
-            [(ngModel)]="selectedValue" name="fontStyle" aria-label="Font Style">
+            [(ngModel)]="selectedValue">
             <mat-button-toggle *ngFor="let card of cards" [value]="card.id">
-                <app-pricing-card [name]="card.name" [value]="card.id" [services]="card.services"
-                    [selectedValue]=selectedValue></app-pricing-card>
+                <app-pricing-card [name]="card.name" [value]="card.id" [priceMo]="card.priceMo" [priceYr]="card.priceYr"
+                    [services]="card.services" [selectedValue]=selectedValue></app-pricing-card>
             </mat-button-toggle>
         </mat-button-toggle-group>
     </div>

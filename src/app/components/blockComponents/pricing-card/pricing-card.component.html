@@ -3,13 +3,21 @@
         <span [ngClass]="{'active-text': selectedValue === value}"
             class="pricing__card-title Headline_6_Bold">{{name}}</span>
         <div class="pricing__card-priceblock">
-            <span [ngClass]="{'active-text': selectedValue === value}" class="pricing__card-price">$99</span>
-            <div class="pricing__card-price__selection">
-                <span [ngClass]="{'pricing__card-price__selection-button-active': selectedValue === value}"
-                    class="pricing__card-price__selection-button Headline_7_SemiBold">Mo</span>
-                <span [ngClass]="{'pricing__card-price__selection-button-active': selectedValue === value}"
-                    class="pricing__card-price__selection-button Headline_7_SemiBold">Yr</span>
-            </div>
+            <span [ngClass]="{'active-text': selectedValue === value}" class="pricing__card-price">{{price}}</span>
+            <mat-button-toggle-group (change)="update()" class="pricing__card-price__selection"
+                [hideSingleSelectionIndicator]="true" [(ngModel)]="selectedPlan" name="fontStyle"
+                aria-label="Font Style">
+                <mat-button-toggle [value]="value + 'Mo'">
+                    <span [ngClass]="{  'pricing__card-price__selection-button-outline': selectedValue === value,
+                                        'pricing__card-price__selection-button-active': selectedPlan == value + 'Mo'}"
+                        class="pricing__card-price__selection-button Headline_7_SemiBold">Mo</span>
+                </mat-button-toggle>
+                <mat-button-toggle [value]="value + 'Yr'">
+                    <span [ngClass]="{'pricing__card-price__selection-button-outline': selectedValue === value,
+                    'pricing__card-price__selection-button-active': selectedPlan == value + 'Yr'}"
+                        class="pricing__card-price__selection-button Headline_7_SemiBold">Yr</span>
+                </mat-button-toggle>
+            </mat-button-toggle-group>
         </div>
     </div>
     <span [ngClass]="{'active-button': selectedValue === value}" class="pricing__card-button Headline_7_SemiBold">Choose
